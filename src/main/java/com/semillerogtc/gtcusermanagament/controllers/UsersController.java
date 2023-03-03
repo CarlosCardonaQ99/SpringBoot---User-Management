@@ -1,5 +1,6 @@
 package com.semillerogtc.gtcusermanagament.controllers;
 
+import com.semillerogtc.gtcusermanagament.domain.User;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 import com.semillerogtc.gtcusermanagament.services.UsersService;
@@ -25,7 +26,12 @@ public class UsersController {
 
     @PostMapping()
     public boolean registrarUsuario() {
-        String user = "Jeffrey";
-        return _user.registrarUsuario(user);
+        User user = new User();
+        user.setName("Jeff");
+        user.setEdad("20");
+        user.setEmail("olakase");
+        user.setFechaNacimiento("2 de abril");
+        return _user.registrarUsuario(user.getName());
+
     }
 }

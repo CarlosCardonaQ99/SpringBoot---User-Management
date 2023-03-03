@@ -1,5 +1,4 @@
-com/semillerogtc/gtcusermanagament/components/UsersValidation.class
-com/semillerogtc/gtcusermanagament/services/UsersService.class
-com/semillerogtc/gtcusermanagament/GtcusermanagamentApplication.class
-Usuario.class
-com/semillerogtc/gtcusermanagament/controllers/UsersController.class
+com\semillerogtc\gtcusermanagament\components\UsersValidation.class
+com\semillerogtc\gtcusermanagament\GtcusermanagamentApplication.class
+com\semillerogtc\gtcusermanagament\services\UsersService.class
+com\semillerogtc\gtcusermanagament\controllers\UsersController.class
